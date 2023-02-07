@@ -40,7 +40,7 @@ main {
 .info {
     margin: 1.5rem;
 }
-h2, p, h4 {
+h2, p, .text-price {
     font-family: 'Montserrat', sans-serif;
     color: var(--Dark-grayish-blue);
     font-weight: 500;
@@ -48,8 +48,9 @@ h2, p, h4 {
 h2 {
     font-size: 1rem;
 }
-h4 {
+.text-price {
     text-decoration: line-through;
+    margin-top: 25px;
 }
 h1, h3 {
     font-family: 'Fraunces', serif;
@@ -63,9 +64,6 @@ h3 {
     color: var(--Dark-cyan);
     font-size: 2rem;
     margin-top: 1rem;
-}
-h4 {
-    margin-top: 25px;
 }
 .price {
     display: flex;
